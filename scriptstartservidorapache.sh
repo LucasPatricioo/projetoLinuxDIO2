@@ -6,13 +6,11 @@ apt upgrade -y
 echo "Finalizado a atualização do servidor..."
 
 echo "Instalando Apache..."
-apt install apache2 -v -y
-echo "Restart do serviço de apache..."
-systemctl restart apache2
+apt install apache2 -y
 echo "Finalizando a instalação do apache..."
 
 echo "Instalando o unzip..."
-apt install unzip -v -y
+apt install unzip -y
 echo "Finalizado a instalação do unzip..."
 
 echo "Download do site a ser alocado no servidor apache..."
